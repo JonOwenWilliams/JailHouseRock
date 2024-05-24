@@ -18,15 +18,16 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'New Rocker', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #e6e6e6;
     text-shadow: red 1px 1px;
 }
 
-/* Header*/
+/* Header */
 header {
     background-color: #464646;
     padding: 0 1rem;
@@ -41,4 +42,27 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+nav {
+    position: absolute;
+    background-color: #464646;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+
+/* Toggle dropdown menu */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
