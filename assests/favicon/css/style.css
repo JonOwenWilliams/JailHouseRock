@@ -66,3 +66,19 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+/*Main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 78.6px;
+    flex: 1 0 auto;
+}
+/* media query ( 768px)*/
+
+@media screen and (min-width: 768px) {
+
+    /*Header*/
+
+}
