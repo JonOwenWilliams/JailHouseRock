@@ -54,6 +54,26 @@ nav {
     display: none;
 }
 
+#navlink li {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#socialmedia {
+    font-size: 110%;
+    letter-spacing: 2px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-content: center;
+    background-color: #464646;
+    text-shadow: red 1px 1px;
+}
+
 /* Toggle dropdown menu */
 #nav-toggle:checked~nav {
     display: block;
@@ -75,6 +95,7 @@ main {
     margin-top: 78.6px;
     flex: 1 0 auto;
 }
+
 /* media query ( 768px)*/
 
 @media screen and (min-width: 768px) {
