@@ -1,0 +1,47 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=RocknRoll+One&display=swap');
+
+/* overriding default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* page styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(211, 211, 211);
+    font-family: "New Rocker", 'RocknRoll', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'New Rocker', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #e6e6e6;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+/* Header*/
+header {
+    background-color: #464646;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
