@@ -27,6 +27,10 @@ h3 {
     text-shadow: red 1px 1px;
 }
 
+.hidden-content {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #464646;
@@ -94,6 +98,30 @@ main {
     flex-direction: column;
     margin-top: 78.6px;
     flex: 1 0 auto;
+}
+
+#rockimg-hero {
+    background: url(../images/hero-image-rock.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#overlaytext-hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 500px;
+    font-size: 140%;
+    padding: 25px 10px;
+}
+
+#overlaytext-hero div {
+    padding: 25px 0;
 }
 
 /* media query ( 768px)*/
