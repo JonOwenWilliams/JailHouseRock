@@ -31,6 +31,10 @@ h3 {
     display: none;
 }
 
+p {
+    font-family: Rockn     ;
+}
+
 /* Header */
 header {
     background-color: #464646;
@@ -99,7 +103,7 @@ main {
     margin-top: 78.6px;
     flex: 1 0 auto;
 }
-
+/* hero image/text overlay */
 #rockimg-hero {
     background: url(../images/hero-image-rock.jpg) no-repeat center center/cover;
     width: 100%;
@@ -116,7 +120,7 @@ main {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     height: 500px;
-    font-size: 140%;
+    font-size: 130%;
     padding: 25px 10px;
 }
 
@@ -124,6 +128,14 @@ main {
     padding: 25px 0;
 }
 
+/* lineup image/overlay text */
+
+#lineup-img {
+    background: url(../images/lineup-img.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
 /* media query ( 768px)*/
 
 @media screen and (min-width: 768px) {
