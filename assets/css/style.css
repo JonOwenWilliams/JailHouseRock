@@ -36,7 +36,14 @@ p {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #e6e6e6;
-    text-shadow: red 1px 1px;
+    padding-bottom: 25px;
+}
+
+.padding-top {
+    padding-top: 25px;
+}
+
+.padding-bottom {
     padding-bottom: 25px;
 }
 
@@ -141,6 +148,10 @@ main {
     flex-direction: column;
     margin-top: 78px;
     flex: 1 0 auto;
+}
+
+#main-background {
+    background-color: #464646;
 }
 
 /* hero image/text overlay */
