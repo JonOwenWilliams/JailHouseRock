@@ -39,6 +39,8 @@ p {
     text-shadow: red 1px 1px;
 }
 
+/* button style */
+
 button {
     background-color: transparent;
     border-radius: 1rem;
@@ -49,6 +51,20 @@ button {
     text-shadow: red 1px 1px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+button a {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+button:hover {
+    border-color: red;
+    background-color: #e6e6e6;
+}
+
+button a:hover {
+    color: #464646;
 }
 
 /* Header */
@@ -86,6 +102,8 @@ nav {
     justify-content: center;
 }
 
+/* social media */
+
 #socialmedia {
     font-size: 110%;
     letter-spacing: 2px;
@@ -96,6 +114,10 @@ nav {
     align-content: center;
     background-color: #464646;
     text-shadow: red 1px 1px;
+}
+
+#socialmedia a {
+    color: #e6e6e6;
 }
 
 /* Toggle dropdown menu */
@@ -119,6 +141,7 @@ main {
     margin-top: 78px;
     flex: 1 0 auto;
 }
+
 /* hero image/text overlay */
 #rockimg-hero {
     background: url(../images/hero-image-rock.jpg) no-repeat center center/cover;
@@ -169,6 +192,7 @@ main {
 #overlaytext-lineup p {
     padding-top: 25px;
 }
+
 /* media query ( 768px)*/
 
 @media screen and (min-width: 768px) {
