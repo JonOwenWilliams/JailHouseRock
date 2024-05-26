@@ -32,7 +32,23 @@ h3 {
 }
 
 p {
-    font-family: Rockn     ;
+    font-family: "New Rocker", 'RocknRoll', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e6e6e6;
+    text-shadow: red 1px 1px;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 1rem;
+    border-color: #e6e6e6;
+    color: #e6e6e6;
+    font-size: 150%;
+    font-family: "New Rocker", 'RocknRoll', sans-serif;
+    text-shadow: red 1px 1px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Header */
@@ -100,7 +116,7 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    margin-top: 78.6px;
+    margin-top: 78px;
     flex: 1 0 auto;
 }
 /* hero image/text overlay */
@@ -135,6 +151,23 @@ main {
     width: 100%;
     height: 250px;
     position: relative;
+}
+
+#overlaytext-lineup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 250px;
+    font-size: 130%;
+    padding: 25px 10px;
+}
+
+#overlaytext-lineup p {
+    padding-top: 25px;
 }
 /* media query ( 768px)*/
 
