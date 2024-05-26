@@ -62,9 +62,6 @@ p {
 #address-button:hover {
     border-color: red;
     background-color: #e6e6e6;
-}
-
-#address-button a:hover {
     color: #464646;
 }
 
