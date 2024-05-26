@@ -169,18 +169,6 @@ main {
     text-align: center;
 }
 
-#why-rock-title{
-
-}
-
-#best-of {
-
-}
-
-#merch {
-
-}
-
 /* lineup image/overlay text */
 
 #lineup-img {
@@ -205,6 +193,31 @@ main {
 
 #overlaytext-lineup p {
     padding-top: 25px;
+}
+
+/* signup image/overlay text */
+#signup-img {
+    background: url(../images/signup-img.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+#overlaytext-signup {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 250px;
+    font-size: 100%;
+    padding: 25px 10px;
+}
+
+#overlaytext-signup h2 {
+    font-size: 200%;
 }
 /* footer */
 
