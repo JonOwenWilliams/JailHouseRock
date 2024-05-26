@@ -47,34 +47,6 @@ p {
     padding-bottom: 25px;
 }
 
-/* address button style */
-
-#address-button {
-    background-color: transparent;
-    border-radius: 1rem;
-    border-color: #e6e6e6;
-    color: #e6e6e6;
-    font-size: 150%;
-    font-family: "New Rocker", 'RocknRoll', sans-serif;
-    text-shadow: red 1px 1px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-#address-button a {
-    text-decoration: none;
-    color: #e6e6e6;
-}
-
-#address-button:hover {
-    border-color: red;
-    background-color: #e6e6e6;
-    color: #464646;
-}
-
-/* lineup a style */
-
-
 /* Header */
 header {
     background-color: #464646;
@@ -177,6 +149,31 @@ main {
 
 #overlaytext-hero div {
     padding: 25px 0;
+}
+
+/* address button style */
+
+#address-button {
+    background-color: transparent;
+    border-radius: 1rem;
+    border-color: #e6e6e6;
+    color: #e6e6e6;
+    font-size: 150%;
+    font-family: "New Rocker", 'RocknRoll', sans-serif;
+    text-shadow: red 1px 1px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#address-button a {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+#address-button:hover {
+    border-color: red;
+    background-color: #e6e6e6;
+    color: #464646;
 }
 
 /* lineup image/overlay text */
