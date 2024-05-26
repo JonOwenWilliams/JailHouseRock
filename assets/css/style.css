@@ -105,7 +105,7 @@ main {
 }
 
 #main-background {
-    background-color: #464646;
+    background: linear-gradient(#464646, #0c0c0c);
 }
 
 /* hero image/text overlay */
@@ -160,13 +160,24 @@ main {
 
 /* why choose Jail house rock */
 
-#why-rock
+#why-rock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
-#why-rock-title
+#why-rock-title{
 
-#best-of
+}
 
-#merch
+#best-of {
+
+}
+
+#merch {
+
+}
+
 /* lineup image/overlay text */
 
 #lineup-img {
