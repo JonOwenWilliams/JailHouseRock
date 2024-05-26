@@ -72,6 +72,7 @@ nav {
     left: 0;
     top: 100%;
     display: none;
+    background: linear-gradient(#464646, #0c0c0c);
 }
 
 #navlink li {
@@ -80,6 +81,8 @@ nav {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    padding-bottom: 5px;
+    text-shadow: red 1px 1px;
 }
 
 /* Toggle dropdown menu */
