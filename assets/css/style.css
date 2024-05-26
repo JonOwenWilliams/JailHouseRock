@@ -32,16 +32,17 @@ h3 {
 }
 
 p {
-    font-family: "New Rocker", 'RocknRoll', sans-serif;
+    font-family: "RocknRoll", 'sans-serif';
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #e6e6e6;
     text-shadow: red 1px 1px;
+    padding-bottom: 25px;
 }
 
-/* button style */
+/* address button style */
 
-button {
+#address-button {
     background-color: transparent;
     border-radius: 1rem;
     border-color: #e6e6e6;
@@ -53,19 +54,22 @@ button {
     letter-spacing: 2px;
 }
 
-button a {
+#address-button a {
     text-decoration: none;
     color: #e6e6e6;
 }
 
-button:hover {
+#address-button:hover {
     border-color: red;
     background-color: #e6e6e6;
 }
 
-button a:hover {
+#address-button a:hover {
     color: #464646;
 }
+
+/* lineup a style */
+
 
 /* Header */
 header {
@@ -185,7 +189,7 @@ main {
     background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     height: 250px;
-    font-size: 130%;
+    font-size: 100%;
     padding: 25px 10px;
 }
 
