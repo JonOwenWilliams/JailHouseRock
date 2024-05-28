@@ -47,6 +47,12 @@ p {
     padding-bottom: 25px;
 }
 
+.active {
+    text-decoration: underline;
+    color: red;
+    text-shadow: #e6e6e6 1px 1px;
+}
+
 /* Header */
 header {
     background-color: #464646;
@@ -250,6 +256,7 @@ main {
 #overlaytext-whoisnext h2 {
     font-size: 200%;
 }
+
 /* footer */
 
 
@@ -276,5 +283,45 @@ main {
 @media screen and (min-width: 768px) {
 
     /*Header*/
+
+    header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-size: 130%;
+        padding: 10px 0;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        background: #464646;
+        padding-bottom: 10px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #navlink {
+        display: flex;
+    }
+    #navlink li {
+        padding: 0 38px;
+        font-size: 100%;
+        align-content: center;
+
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Main */
+    /* raised up to fit next under header */
+    main {
+        margin-top: 36px;
+    }
+
 
 }
