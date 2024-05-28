@@ -85,6 +85,11 @@ nav {
     text-shadow: red 1px 1px;
 }
 
+#header-logo {
+    font-size: 135%;
+    padding-bottom: 10px;
+}
+
 /* Toggle dropdown menu */
 #nav-toggle:checked~nav {
     display: block;
@@ -103,7 +108,7 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    margin-top: 78px;
+    margin-top: 46px;
     flex: 1 0 auto;
 }
 
