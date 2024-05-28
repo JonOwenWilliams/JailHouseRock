@@ -49,8 +49,8 @@ p {
 
 .active {
     text-decoration: underline;
-    color: red;
-    text-shadow: #e6e6e6 1px 1px;
+    color: #e6e6e6;
+    text-shadow: red 1px 1px;
 }
 
 /* Header */
