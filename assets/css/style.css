@@ -56,7 +56,7 @@ p {
 header {
     background-color: #464646;
     padding: 0 1rem;
-    position: fixed;SS
+    position: fixed;
     z-index: 99;
     width: 100%;
     display: flex;
@@ -317,12 +317,15 @@ main {
     }
 
     /* Main */
-    /* raised up to fit next under header */
+
+    
     main {
+        /* raised up to fit next under header */
         margin-top: 36px;
     }
 
     #best-of, #merch {
+
         width:70%;
         display: flex;
         flex-direction: column;
@@ -335,7 +338,25 @@ main {
     #navlink a:hover{
         text-decoration: underline;
     }
-    #big-link-button {
-        column-count: 3;
+    
+    #lineup-img {
+        width: 33.33%;
+        height: 250px;
+    }
+
+    #signup-img {
+        width: 33.33%;
+        height: 250px;
+    }
+
+    #whoisnext-img {
+        width: 33.33%;
+        height: 250px;
+    }
+
+    #three-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        flex:1;
     }
 }
