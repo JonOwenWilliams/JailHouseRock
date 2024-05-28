@@ -49,16 +49,15 @@ p {
 
 .active {
     text-decoration: underline;
-    color: #e6e6e6;
-    text-shadow: red 1px 1px;
+    
 }
 
 /* Header */
 header {
     background-color: #464646;
     padding: 0 1rem;
-    position: fixed;
-    z-index: 100;
+    position: fixed;SS
+    z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -323,5 +322,20 @@ main {
         margin-top: 36px;
     }
 
+    #best-of, #merch {
+        width:70%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+}
 
+@media screen and (min-width: 992px) {
+
+    #navlink a:hover{
+        text-decoration: underline;
+    }
+    #big-link-button {
+        column-count: 3;
+    }
 }
