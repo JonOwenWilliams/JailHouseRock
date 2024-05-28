@@ -360,3 +360,24 @@ main {
         flex:1;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    
+    #best-of, #merch {
+
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        }
+        
+        #best-of {
+            align-self: flex-start;
+            width: 40%;
+        }
+
+        #merch {
+            align-self: flex-end;
+            width: 40%;
+        }
+}
