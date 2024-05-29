@@ -19,7 +19,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'New Rocker', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -49,7 +50,7 @@ p {
 
 .active {
     text-decoration: underline;
-    
+
 }
 
 /* Header */
@@ -261,18 +262,44 @@ main {
 #lineup-header {
     display: flex;
     align-items: center;
-    font-size: 50px%;
+    font-size: 100%;
     padding: 15px 0;
     flex-direction: column;
 }
 
 #lineup-header h2 {
     font-size: 100%;
-    padding: 15px 0;
+    padding: 15px 0 5px;
 }
 
 hr {
     border-top: solid 3px #e6e6e6;
+}
+
+.days {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 110%;
+}
+
+.times {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 100%;
+}
+
+.band-list li {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    padding-bottom: 5px;
+    text-shadow: red 1px 0 10px;
 }
 
 /* social media */
@@ -321,6 +348,7 @@ hr {
     #navlink {
         display: flex;
     }
+
     #navlink li {
         padding: 0 38px;
         font-size: 100%;
@@ -334,15 +362,16 @@ hr {
 
     /* Main */
 
-    
+
     main {
         /* raised up to fit next under header */
         margin-top: 36px;
     }
 
-    #best-of, #merch {
+    #best-of,
+    #merch {
 
-        width:70%;
+        width: 70%;
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -351,10 +380,10 @@ hr {
 
 @media screen and (min-width: 992px) {
 
-    #navlink a:hover{
+    #navlink a:hover {
         text-decoration: underline;
     }
-    
+
     #lineup-img {
         width: 33.33%;
         height: 250px;
@@ -373,40 +402,41 @@ hr {
     #three-buttons {
         display: flex;
         flex-wrap: wrap;
-        flex:1;
+        flex: 1;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    
-    #best-of, #merch {
 
-        width:80%;
+    #best-of,
+    #merch {
+
+        width: 80%;
         display: flex;
         flex-direction: column;
         flex: 1;
-        }
+    }
 
-        #why-rock {
-            position: relative;
-            height: 400px;
-        }
-        
-        #best-of {
-            width: 40%;
-            height: 238px;
-            position: absolute;
-            top: 65px;
-            left: 5px;
-        }
+    #why-rock {
+        position: relative;
+        height: 400px;
+    }
 
-        #merch {
-            width: 40%;
-            height: 238px;
-            position: absolute;
-            top: 91px;
-            right: 5px;
-        }
+    #best-of {
+        width: 40%;
+        height: 238px;
+        position: absolute;
+        top: 65px;
+        left: 5px;
+    }
+
+    #merch {
+        width: 40%;
+        height: 238px;
+        position: absolute;
+        top: 91px;
+        right: 5px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
