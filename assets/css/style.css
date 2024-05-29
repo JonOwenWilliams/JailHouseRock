@@ -299,7 +299,7 @@ hr {
     flex-direction: column;
     font-size: 150%;
     padding-bottom: 5px;
-    text-shadow: red 1px 0 10px;
+    text-shadow: red 1px 1px;
 }
 
 /* social media */
