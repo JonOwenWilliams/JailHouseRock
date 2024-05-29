@@ -52,6 +52,10 @@ p {
     
 }
 
+#background-img {
+    z-index: -1;
+}
+
 /* Header */
 header {
     background-color: #464646;
@@ -370,14 +374,35 @@ main {
         flex-direction: column;
         flex: 1;
         }
+
+        #why-rock {
+            position: relative;
+            height: 400px;
+        }
         
         #best-of {
-            align-self: flex-start;
             width: 40%;
+            height: 238px;
+            position: absolute;
+            top: 65px;
+            left: 5px;
         }
 
         #merch {
-            align-self: flex-end;
             width: 40%;
+            height: 238px;
+            position: absolute;
+            top: 91px;
+            right: 5px;
         }
+}
+
+@media screen and (min-width: 1440px) {
+    main {
+        width: 1440px;
+        display: flex;
+        align-self: center;
+    }
+
+
 }
