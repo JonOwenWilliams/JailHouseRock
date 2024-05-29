@@ -52,10 +52,6 @@ p {
     
 }
 
-#background-img {
-    z-index: -1;
-}
-
 /* Header */
 header {
     background-color: #464646;
@@ -404,5 +400,8 @@ main {
         align-self: center;
     }
 
+    body {
+        background: url(../images/concert-background.jpg) no-repeat center center/cover;
+    }
 
 }
