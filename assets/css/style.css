@@ -302,6 +302,11 @@ hr {
     text-shadow: red 1px 1px;
 }
 
+#lineup-background {
+    background: url(../images/background-for-lineup.jpg) no-repeat center center/cover;
+    width: 100%;
+}
+
 /* social media */
 
 #socialmedia {
