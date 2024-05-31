@@ -311,19 +311,19 @@ hr {
     position: relative;
 }
 
-#signup-form{
+#signup-form {
     width: 100%;
     background-color: #0c0c0caa;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
 }
 
 #form-title {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.align-left{
-    align-self: flex-start;
+    text-align: center;
 }
 
 #submit-button {
@@ -451,6 +451,7 @@ hr {
         flex-wrap: wrap;
         flex: 1;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
