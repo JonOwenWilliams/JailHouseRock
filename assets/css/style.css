@@ -310,7 +310,11 @@ hr {
 #signup-form{
 }
 
-
+#form-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 /* social media */
 
