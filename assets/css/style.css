@@ -321,8 +321,16 @@ hr {
     align-self: flex-start;
 }
 
-.text-imput {
-    align
+#submit-button {
+    background-color: transparent;
+    border-radius: 1rem;
+    border-color: #e6e6e6;
+    color: #e6e6e6;
+    font-size: 150%;
+    font-family: "New Rocker", 'RocknRoll', sans-serif;
+    text-shadow: red 1px 1px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* social media */
