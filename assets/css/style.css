@@ -339,6 +339,20 @@ hr {
     width: 100%;
 }
 
+/* band photos */
+
+#gallery {
+}
+
+#band-photos {
+    line-height: 0;
+}
+
+#band-photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
 /* social media */
 
 #socialmedia {
