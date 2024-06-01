@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* page styles */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -53,6 +53,10 @@ p {
 
 }
 
+hr {
+    border-top: solid 3px #e6e6e6;
+}
+
 /* Header */
 header {
     background-color: #464646;
@@ -69,6 +73,13 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
+#header-logo {
+    font-size: 135%;
+    padding-bottom: 10px;
+}
+
+/* nav-bar */
 
 nav {
     position: absolute;
@@ -90,11 +101,6 @@ nav {
     padding-bottom: 5px;
     text-shadow: red 1px 1px;
     text-transform: uppercase;
-}
-
-#header-logo {
-    font-size: 135%;
-    padding-bottom: 10px;
 }
 
 /* Toggle dropdown menu */
@@ -273,10 +279,6 @@ main {
     padding: 15px 0 5px;
 }
 
-hr {
-    border-top: solid 3px #e6e6e6;
-}
-
 .days {
     padding-top: 15px;
     display: flex;
@@ -302,6 +304,7 @@ hr {
     padding-bottom: 5px;
     text-shadow: red 1px 1px;
 }
+
 /* lineup background */
 #thursday-lineup {
     background: url(../images/stage-one.jpg) no-repeat center center/cover;
@@ -343,11 +346,9 @@ hr {
     background-color: #0c0c0caa;
 }
 
-
-
 /* Sign Up Page */
 
-#signup-page{
+#signup-page {
     background: url(../images/band-photo-4.jpg) no-repeat center center/cover;
     width: 100%;
     height: 748px;
@@ -392,6 +393,7 @@ hr {
     width: 100%;
     line-height: 1em;
 }
+
 /* footer */
 
 footer {
@@ -416,9 +418,13 @@ footer {
 #socialmedia a {
     color: #e6e6e6;
 }
+
 /* media query min height (320px) */
 
-@media screen and (min-height:320px){
+@media screen and (min-height:320px) {
+
+    /* signup page */
+
     #signup-page {
         height: 748px;
     }
@@ -426,12 +432,16 @@ footer {
 
 /* media query (430px) */
 @media screen and (min-width: 430px) {
-    
+
+    /* address button main page */
+
     #address-button {
         font-size: 120%;
     }
-    
-    #signup-form{
+
+    /* signup page */
+
+    #signup-form {
         width: 70%;
         display: flex;
         justify-content: center;
@@ -441,7 +451,10 @@ footer {
     }
 }
 
-@media screen and (min-width: 550px){
+@media screen and (min-width: 550px) {
+
+    /* gallery */
+
     #band-photos {
         column-count: 2;
         column-gap: 0;
@@ -495,7 +508,6 @@ footer {
 
     /* Main */
 
-
     main {
         /* raised up to fit next under header */
         margin-top: 31px;
@@ -525,6 +537,8 @@ footer {
 
 @media screen and (min-width: 992px) {
 
+    /* header */
+
     #navlink a:hover {
         text-decoration: underline;
     }
@@ -533,9 +547,13 @@ footer {
         font-size: 100%;
     }
 
+    /* main content */
+
     main {
         margin-top: 36px;
     }
+
+    /* image buttons index */
 
     #lineup-img {
         width: 33.33%;
@@ -561,6 +579,8 @@ footer {
 }
 
 @media screen and (min-width: 1200px) {
+
+    /* main content */
 
     #best-of,
     #merch {
@@ -594,11 +614,16 @@ footer {
 }
 
 @media screen and (min-width: 1440px) {
+
+    /* main content */
+
     main {
         width: 1440px;
         display: flex;
         align-self: center;
     }
+
+    /* wallpaper behind main content only visible on larger screens */
 
     body {
         background: url(../images/concert-background.jpg) no-repeat center center/cover;
