@@ -350,7 +350,7 @@ hr {
 #signup-page{
     background: url(../images/band-photo-4.jpg) no-repeat center center/cover;
     width: 100%;
-    height: 100vh;
+    height: 748px;
     position: relative;
 }
 
@@ -384,9 +384,6 @@ hr {
 
 /* band photos */
 
-#gallery {
-}
-
 #band-photos {
     line-height: 0;
 }
@@ -394,6 +391,11 @@ hr {
 #band-photos img {
     width: 100%;
     line-height: 1em;
+}
+/* footer */
+
+footer {
+    z-index: 50;
 }
 
 /* social media */
@@ -414,6 +416,13 @@ hr {
 #socialmedia a {
     color: #e6e6e6;
 }
+/* media query min height (320px) */
+
+@media screen and (min-height:320px){
+    #signup-page {
+        height: 748px;
+    }
+}
 
 /* media query (430px) */
 @media screen and (min-width: 430px) {
@@ -431,7 +440,12 @@ hr {
         column-count: 2;
         column-gap: 0;
     }
+
+    #signup-page {
+        height: 100vh;
+    }
 }
+
 
 /* media query ( 768px)*/
 
