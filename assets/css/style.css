@@ -427,11 +427,12 @@ footer {
 /* media query (430px) */
 @media screen and (min-width: 430px) {
     #signup-form{
-        width: 430px;
+        width: 70%;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-self: center;
+        margin-right: 15%;
     }
 }
 
@@ -439,10 +440,6 @@ footer {
     #band-photos {
         column-count: 2;
         column-gap: 0;
-    }
-
-    #signup-page {
-        height: 100vh;
     }
 }
 
@@ -508,6 +505,10 @@ footer {
 
     #band-photos {
         column-count: 3;
+    }
+
+    #signup-page {
+        height: 100vh;
     }
 }
 
