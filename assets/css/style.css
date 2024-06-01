@@ -89,6 +89,7 @@ nav {
     justify-content: center;
     padding-bottom: 5px;
     text-shadow: red 1px 1px;
+    text-transform: uppercase;
 }
 
 #header-logo {
