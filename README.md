@@ -112,6 +112,23 @@ Another issue came up where if you held your phone in landscape mode on the sign
 
 Finaly just before depolying this site I realised that I forgot to link the gallery.html to the 3rd button on the bottom of the index page stopping that button from working as it should. I fixed this issue by correcting the file path.
 
+# Deployment:
+
+I deployed the site using Github pages (this is how):
+
+  1. Within the GitHub repository, select the settings tab,
+  2. Under the "code and automation" tab, select "pages".
+  3. Make sure you,
+     - Set the source to "Deploy from branch",
+     - Select "main branch"
+     - Set folder to "Root"
+     - Click "Save"
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 # Credits
 
 ## Content:
