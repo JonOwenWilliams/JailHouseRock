@@ -88,9 +88,11 @@ The gallery page houses all sorts of images linked in with rock concerts the pag
 
 when testing the functionality of the website I tests all nav links even the header link to test if they all work as well as testing the 3 button links on the bottom of the index page. I have tested all social media links and made sure they all take you to the correct social media page. I have tested the address button to make sure it takes you to a specific position on Google Maps. I tested all the required elements in the form section and tested if the form was sent to the correct page.  I tested how the site works on different devices as well as testing it on my own devices such as my phone my tablet my laptop and my PC with an ultrawide monitor.
 
-I ran all the HTML codes through the HTML validator and CSS validator and came up with no issues.
+I ran all the HTML codes through the [HTML Validator](https://validator.w3.org/)
 
-I also ran each page through the lighthouse feature one issue that caught my eye was that the images I was using on the gallery were affecting the performance significantly due to the size of the image files so I used an online image compressor to compress the images to increase performance. the site I used to compress the images was imagecompresson.com(https://imagecompressor.com/)
+I also ran all the css code through the [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+I also ran each page through the lighthouse feature on the Chrome dev tools.
 
 ## Fixes
 
