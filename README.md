@@ -34,6 +34,8 @@ The footer has a button link to Facebook, Instagram, Twitter (X), and Youtube. E
 
 ![screenshot of the footer displaying all social media pages](assets/screenshots/footer-mobile.png)
 
+***The social media linked at the bottom help our clients keep in contact with us to get all the latest news.***
+
 ## Hero image and overlay text.
 
 The hero image I used is of a band on stage and the photo was taken within the crowd to show you that this site is made to advertise a music festival. the overlay text tells you the name of the festival as well as a location, date and also houses a button link that takes you to Google Maps and the location of the festival. 
@@ -43,6 +45,8 @@ The hero image I used is of a band on stage and the photo was taken within the c
 *The button itself has a hover feature that changes the appearance of the button.*
 
 ![screenshot of button feature on hero image](assets/screenshots/hover-address.png)
+
+***The overlay text will be updated with the new dates every year.***
 
 ## Why choose Jailhouse Rock?
 
@@ -62,9 +66,11 @@ The lineup page has been laid out in a collum to help the reader focus on the na
 
 ![screen shot of the lineup layout](assets/screenshots/lineup-img.png)
 
+***The lineup page will be updated every year with all the bands people wnat to see along with the new dates and times.***
+
 ## The signup page
 
-I have added a large image for the background that sticks with the themes of the site. The form itself is placed in the center of the page and contains a first and last name field and an email field all of which are required to be filled, the form also includes 2 text boxes of different sizes a checkbox section, and finally a submit button. underneath the form is a paragraph element that explains what you will receive by submitting this form.
+I have added a large image for the background that sticks with the themes of the site. The form itself is placed in the center of the page and contains a first and last name field and an email field all of which are required to be filled, the form also includes 2 text boxes of different sizes a checkbox section, and finally a submit button. underneath the form is a paragraph element that explains what you will receive by submitting this form. The signup page is also used to find out who our target audience want to see next year.
 
 ![screenshot of the signup form page](assets/screenshots/signupform-img.png)
 
@@ -83,6 +89,8 @@ The gallery page houses all sorts of images linked in with rock concerts the pag
 *Mobile devices have the images displayed in a single collum.*
 
 ![screenshot of the gallery page on mobile](assets/screenshots/gallery-mobile.png)
+
+***Images will be added to the gallery after every concert every year.***
 
 ## All tests performed
 
